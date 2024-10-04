@@ -9,6 +9,7 @@
 ```
 ./stream -m ./models/ggml-small.en.bin -t 6 --step 0 --length 30000 -vth 0.6
 ```
+- local tests
 ```
 ./stream -m ./models/ggml-large-v3-turbo-q5_0.bin -l en -t 10 --step 0 --length 30000 -vth 6 -fa > output_test.txt
 ./stream -m ./models/ggml-large-v3-turbo-q5_0.bin -l en -t 10 --step 0 --length 30000 -vth 6 > output_test.txt
