@@ -1,6 +1,6 @@
 # Exemples Command Line
 
-- README.md
+- [real-time-audio-input-example](https://github.com/cl6ef7ejuh5hcmebne07/whisper.cpp/blob/master/README.md#real-time-audio-input-example)
 ```
 ./stream -m ./models/ggml-base.en.bin -t 8 --step 500 --length 5000
 ```
