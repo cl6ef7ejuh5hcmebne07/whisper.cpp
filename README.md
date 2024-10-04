@@ -1,10 +1,10 @@
 # Exemples Command Line
 
 - [real-time-audio-input-example](https://github.com/cl6ef7ejuh5hcmebne07/whisper.cpp/blob/master/README.md#real-time-audio-input-example)
-- [examples/stream](https://github.com/cl6ef7ejuh5hcmebne07/whisper.cpp/tree/master/examples/stream)
 ```
 ./stream -m ./models/ggml-base.en.bin -t 8 --step 500 --length 5000
 ```
+- [examples/stream](https://github.com/cl6ef7ejuh5hcmebne07/whisper.cpp/tree/master/examples/stream)
 - [sliding window mode with vad](https://github.com/cl6ef7ejuh5hcmebne07/whisper.cpp/tree/master/examples/stream#sliding-window-mode-with-vad)
 ```
 ./stream -m ./models/ggml-small.en.bin -t 6 --step 0 --length 30000 -vth 0.6
