@@ -1,4 +1,20 @@
-# Local make
+# Exemples Command Line
+
+- README.md
+```
+./stream -m ./models/ggml-base.en.bin -t 8 --step 500 --length 5000
+```
+
+```
+./stream -m ./models/ggml-large-v3-turbo-q5_0.bin -l en -t 10 --step 0 --length 30000 -vth 6 -fa > output_test.txt
+./stream -m ./models/ggml-large-v3-turbo-q5_0.bin -l en -t 10 --step 0 --length 30000 -vth 6 > output_test.txt
+./stream -m ./models/ggml-large-v3-turbo-q5_0.bin -l pt -t 10 --step 0 --length 30000 -vth 6 -fa > output_test.txt
+./stream -m ./models/ggml-large-v3-turbo-q5_0.bin -l pt -t 10 --step 0 --length 30000 -vth 6 > output_test.txt
+./stream -m ./models/ggml-large-v3-turbo-q5_0.bin -t 10 --step 0 --length 30000 -vth 6 > output_test.txt
+./stream -m ./models/ggml-large-v3-turbo-q5_0.bin -t 10 --step 0 --length 30000 -vth 6 > output_test.txt
+```
+
+# Local Make
 
 ```
 sudo apt update -y
