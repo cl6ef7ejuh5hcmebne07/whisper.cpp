@@ -1,3 +1,68 @@
+# Local make
+
+```
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt autoremove
+df -h
+make stream
+sudo apt install build-essential
+make stream
+sudo apt-get install libsdl2-dev
+apt-get install libsdl2-image-dev
+apt-get install libsdl2-mixer-dev
+apt-get install libsdl2-ttf-dev
+sudo install libsdl2-image-dev libsdl2-mixer-dev  libsdl2-ttf-dev -y
+sudo apt install libsdl2-image-dev libsdl2-mixer-dev  libsdl2-ttf-dev
+make stream
+file stream
+conan install --requires="whisper-cpp/[*
+sudo apt install conan
+make clean
+GGML_CUDA=1 make -j
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-ubuntu2404.pin
+sudo mv cuda-ubuntu2404.pin /etc/apt/preferences.d/cuda-repository-pin-600
+wget https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda-repo-ubuntu2404-12-6-local_12.6.2-560.35.03-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu2404-12-6-local_12.6.2-560.35.03-1_amd64.deb
+sudo cp /var/cuda-repo-ubuntu2404-12-6-local/cuda-*-keyring.gpg /usr/share/keyrings/
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-6
+GGML_CUDA=1 make -j
+GGML_CUDA=1 make -j
+sudo apt-get install -y nvidia-open
+make clean
+GGML_CUDA=1 make -j
+nvcc
+sudo apt install nvidia-cuda-tookit
+sudo apt install nvidia-cuda-toolkit
+make clean
+GGML_CUDA=1 make -j
+bash
+source l_openvino_toolkit_ubuntu22_2023.0.0.10926.b4452d56304_x86_64/setupvars.sh
+source .venv/Scripts/activate
+source l_openvino_toolkit_ubuntu22_2023.0.0.10926.b4452d56304_x86_64/setupvars.sh
+source tmp/l_openvino_toolkit_ubuntu22_2023.0.0.10926.b4452d56304_x86_64/setupvars.sh
+python -V
+python -m virtualenv .venv2
+python -m venv .venv2
+python3 -m virtualenv .venv2
+whereis python
+source .venv/Scripts/deactivate
+source .venv/Scripts/deactivate.bat
+python -V
+exit
+./ggml-large-v3-turbo-encoder-openvino.bin
+sh ggml-large-v3-turbo-encoder-openvino.bin
+bash ggml-large-v3-turbo-encoder-openvino.bin
+#ggml-large-v3-turbo-encoder-openvino.bin
+mv ggml-large-v3-turbo-encoder-openvino.bin large-v3-turbo.bin
+./download-ggml-model.sh
+./download-ggml-model.sh large-v3-turbo-q5_0 .
+./download-ggml-model.sh large-v3-turbo .
+./download-ggml-model.sh large-v3-q5_0 .
+./download-ggml-model.sh large-v3 .
+```
+
 # whisper.cpp
 
 ![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg)
